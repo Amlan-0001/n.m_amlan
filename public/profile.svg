@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#065f46"/>
+      <stop offset="100%" style="stop-color:#022c22"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="24" fill="url(#g)"/>
+  <circle cx="100" cy="88" r="36" fill="#34d399" opacity="0.35"/>
+  <text x="100" y="102" text-anchor="middle" fill="#a7f3d0" font-size="42" font-family="Inter,system-ui,sans-serif" font-weight="700">NA</text>
+  <text x="100" y="168" text-anchor="middle" fill="#6ee7b7" font-size="14" font-family="Inter,system-ui,sans-serif">N M Amlan</text>
+</svg>
