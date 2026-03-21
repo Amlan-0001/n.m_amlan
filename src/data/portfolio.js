@@ -8,6 +8,9 @@ export const portfolio = {
   /** Resume PDF in /public (copied from your file when available) */
   resumeUrl: '/N_M_Amlan_Intern_Resume_2026.pdf',
 
+  /** Hero photo: file in /public (committed to Git). Avoids build errors if src/assets image is missing on CI. */
+  heroImage: '/profile.png',
+
   social: {
     github: 'https://github.com/Amlan-0001',
     linkedin: 'https://www.linkedin.com/in/n-m-amlan-a05b3027a',

@@ -1,10 +1,9 @@
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
-import heroProfile from "../assets/profile.png";
 import { portfolio } from "../data/portfolio";
 
 export default function Hero() {
-  const { hero, fullName, resumeUrl, social } = portfolio;
+  const { hero, fullName, resumeUrl, social, heroImage } = portfolio;
 
   return (
     <section
@@ -92,7 +91,7 @@ export default function Hero() {
         <div className="absolute inset-0 bg-primary blur-[100px] opacity-20 rounded-full animate-pulse scale-110"></div>
         <div className="relative w-72 h-72 md:w-[380px] md:h-[380px] rounded-full overflow-hidden border-4 border-primary shadow-glow-lg ring-2 ring-primary/35">
           <img
-            src={heroProfile}
+            src={heroImage}
             className="w-full h-full object-cover object-top object-[center_8%] scale-100 md:object-[center_5%] md:scale-[1.02] filter contrast-110"
             alt={fullName}
           />
